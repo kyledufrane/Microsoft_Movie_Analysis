@@ -37,27 +37,19 @@ This project utilizes descriptive analysis, including examination of correlation
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
 ***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-
 Consider releasing movies at the beginning of May as the three most profitable months are May, June and July
 ![Average Profit per Month Since 2010](./images/profit_per_month.png)
 ![Most profitable Movies for May, June & July](./images/most_profitable_movies.png)
+***
 
 Consider a larger budget for the movie production. This tends to lead towards higher revenue and profits.
 ![Budget](./images/budget_profit_revenue.png)
+***
 
 Consider working with Walt Disney and Warner Bros studios who statistically generate the most average and total revenue per movie
 ![Top Studios](./images/top_studios_revenue.png)
+***
 
 Consider working with the highest rated Directors.
 
@@ -73,10 +65,11 @@ Consider working with the highest rated Directors.
 | Rajkumar Hirani    |8.041176       | 
 | Stephen Chbosky    |8.000000       | 
 | Neeraj Pandey      |8.000000       | 
+***
 
 Consider making the movie around 120 to 140 minutes
-![graph1](./images/viz1.png)
-
+![graph1](./images/rating_runtime_minutes.png)
+***
 
 
 ## Conclusions

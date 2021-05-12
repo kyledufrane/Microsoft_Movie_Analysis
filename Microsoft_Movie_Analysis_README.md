@@ -68,7 +68,9 @@ Consider working with the highest rated Directors.
 ***
 
 Consider making the movie around 120 to 140 minutes
+
 ![graph1](./images/rating_runtime_minutes.png)
+
 ***
 
 

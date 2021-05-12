@@ -23,14 +23,10 @@ Microsoft is looking to develop an internal film department and needs clarity on
 
 IMDB is the most popular dataset about movie information. Each row in this dataset represents a unique movie and surrounding information about the movie. The Numbers dataset includes each unique movie along with budget and revenue numbers. The Box Office Mojo dataset includes domestic and forign revenue for each movie but also includes the studio that distributed the move. Below are links to the sites that we pulled our data from:
 
-IMDB
-The Numbers
-Box Office Mojo
-
 ***
-* IMDB
-* The Numbers
-* Box Office Mojo
+* [IMDB](https://www.imdb.com/interfaces/)
+* [The Numbers](https://www.the-numbers.com)
+* [Box Office Mojo](https://www.boxofficemojo.com)
 ***
 
 ## Methods

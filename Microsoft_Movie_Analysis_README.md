@@ -4,13 +4,13 @@
 
 ## Overview
 
-This project analyzes movie data from IMDB, The Numbers, and Box Office Mojo websites. The IMDB dataset includes data of over 38,000 movies. The Numbers includes budget and revenue data of over 5,000 movies and the Box Office Mojo Studio includes revenue data of over 3,000 movies. Descriptive analysis of movie data shows that it is important to be slelective about certain attributes of the movie you make.
+This project analyzes movie data from IMDb, The Numbers, and Box Office Mojo websites. The IMDb dataset includes data of over 38,000 movies. The Numbers dataset includes budget and revenue data of over 5,000 movies and the Box Office Mojo dataset includes revenue data of over 3,000 movies. Descriptive analysis of movie data shows that it is important to be slelective about certain attributes of the movie you create.
 
 ![logo](images/logo.jpeg)
 
 ## Business Problem
 
-Microsoft is looking to develop an internal film department and needs clarity on how to be the most successful in the movie industry. Microsoft has never created a movie before. Choosing the first movie to make in this department is critical to their success in the movie industry. Through our analysis of various sources, we took at look at movies that were released in the last 10 years to get an idea of how recent movies have performed. Given that, we are going to provide recommendations based on the following:
+Microsoft is looking to develop an internal film department and needs clarity on how to be the most successful in the movie industry. Microsoft has never created a movie before. Choosing the first movie to make in this department is critical to their success in the movie industry. Through our analysis of various sources, we took a look at movies that were released in the last 10 years to get an idea of how recent movies have performed. Given that, we are going to provide recommendations to Microsoft based on the following:
 ***
 * Which studio Microsoft should chose to distribute the movie
 * Which director to chose
@@ -48,7 +48,36 @@ Questions to consider:
 Here is an example of how to embed images from your sub-folder:
 
 ### Visual 1
+
+Consider releasing movies at the beginning of May as the three most profitable months are May, June and July
+![Average Profit per Month Since 2010](./images/profit_per_month.png)
+![Most profitable Movies for May, June & July](./images/most_profitable_movies.png)
+
+Consider a larger budget for the movie production. This tends to lead towards higher revenue and profits.
+![Budget](./images/budget_profit_revenue.png)
+
+Consider working with Walt Disney and Warner Bros studios who statistically generate the most average and total revenue per movie
+![Top Studios](./images/top_studios_revenue.png)
+
+Consider working with the highest rated Directors.
+
+| Director           | Average Rating|
+| -------------      |:-------------:| 
+| Christopher Nolan  |8.455479       | 
+| Lee Unkrich        |8.349254       | 
+| Joe Russo|         |8.198621       |
+| S.S. Rajamouli     |8.193333       | 
+| Asif Kapadia       |8.148718       | 
+| Quentin Tarantino  |8.104110       | 
+| Nuri Bilge Ceylan  |8.066667       | 
+| Rajkumar Hirani    |8.041176       | 
+| Stephen Chbosky    |8.000000       | 
+| Neeraj Pandey      |8.000000       | 
+
+Consider making the movie around 120 to 140 minutes
 ![graph1](./images/viz1.png)
+
+
 
 ## Conclusions
 

@@ -69,7 +69,7 @@ The average ratings of movies tend to increase as the length of the movie increa
 
 Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb)or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Ryan Reilly & ryan.m.reilly@gmail.com, Brian Matsiko & matsikobrian@yahoo.com**, Kyle Dufrane & kyle.dufrane@gmail.com**
 
 ## Repository Structure
 

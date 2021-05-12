@@ -57,7 +57,7 @@ Consider working with the highest rated Directors.
 | -------------      |:-------------:| 
 | Christopher Nolan  |8.455479       | 
 | Lee Unkrich        |8.349254       | 
-| Joe Russo|         |8.198621       |
+| Joe Russo          |8.198621       |
 | S.S. Rajamouli     |8.193333       | 
 | Asif Kapadia       |8.148718       | 
 | Quentin Tarantino  |8.104110       | 
@@ -88,10 +88,18 @@ There is a positive corrrelation with how much money is budgeted for a film and 
 5. Consider making your movie around 150 minutes.
 The average ratings of movies tend to increase as the length of the movie increases. Our analysis show the most positive incerease in ratings happens to movies up until 150 minutes.
 
+## Next Steps
+
+Further analyses could provide even more insight into how you will create and distribute Microsoft's first movie:
+Better idea of budgets and profits for movies in each genre. We could get an idea of ROI for each movie and by each studio rather than total numbers like we shared in this analysis. Also, if we could find breakdowns of how the budget was spent by each studio to show Microsoft how much they should advertise, how they should advertise,how much to pay their actors/actresses/directors etc. These findings can answer question like: Does it make sense to pay top dollar to top talent?
+Better Idea of what actors/writers/directors will crossover well into different genres. You could take a look at the highest rated actors/writers/directors and see if they have crossed over into making a film out of their typical genre and see if it was succesful (i.e. research one of our top rated actors, Mahershala Ali, and see if he has made an Adventure movie before)
+Better qualitative analysis on why studios, writers, directors, actors/actresses, would want to work with Microsoft. Maybe there are certain things they look for from the company producing the film other than money. This could be done by surveys to individual writers/directors/actors.
+Better idea of studio culture, the benefits of other studios and how they treat there employees and operate the business. We could look at what HR benefits the studio offers, compensation, community events. Do they have a "feelings Friday?"
+
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb)or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
 For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.com, Kyle Dufrane kyle.dufrane@gmail.com**, Brian Matsiko matsikobrian@yahoo.com**
 
@@ -100,9 +108,9 @@ For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.c
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── Microsoft_Movie_Analysis_README.md                          
+├── final_notebook.ipynb   
+├── DS_Project_Presentation.pdf         
+├── data                            
+└── images
 ```

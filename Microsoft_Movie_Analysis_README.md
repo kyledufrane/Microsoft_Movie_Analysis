@@ -4,13 +4,13 @@
 
 ## Overview
 
-This project analyzes movie data from IMDB, The Numbers, and Box Office Mojo websites. The IMDB dataset includes data of over 38,000 movies. The Numbers includes budget and revenue data of over 5,000 movies and the Box Office Mojo Studio includes revenue data of over 3,000 movies. Descriptive analysis of movie data shows that it is important to be slelective about certain attributes of the movie you make.
+This project analyzes movie data from IMDb, The Numbers, and Box Office Mojo websites. The IMDb dataset includes data of over 38,000 movies. The Numbers dataset includes budget and revenue data of over 5,000 movies and the Box Office Mojo dataset includes revenue data of over 3,000 movies. Descriptive analysis of movie data shows that it is important to be slelective about certain attributes of the movie you create.
 
 ![logo](images/logo.jpeg)
 
 ## Business Problem
 
-Microsoft is looking to develop an internal film department and needs clarity on how to be the most successful in the movie industry. Microsoft has never created a movie before. Choosing the first movie to make in this department is critical to their success in the movie industry. Through our analysis of various sources, we took at look at movies that were released in the last 10 years to get an idea of how recent movies have performed. Given that, we are going to provide recommendations based on the following:
+Microsoft is looking to develop an internal film department and needs clarity on how to be the most successful in the movie industry. Microsoft has never created a movie before. Choosing the first movie to make in this department is critical to their success in the movie industry. Through our analysis of various sources, we took a look at movies that were released in the last 10 years to get an idea of how recent movies have performed. Given that, we are going to provide recommendations to Microsoft based on the following:
 ***
 * Which studio Microsoft should chose to distribute the movie
 * Which director to chose
@@ -37,18 +37,42 @@ This project utilizes descriptive analysis, including examination of correlation
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
 ***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
+Consider releasing movies at the beginning of May as the three most profitable months are May, June and July
+![Average Profit per Month Since 2010](./images/profit_per_month.png)
+![Most profitable Movies for May, June & July](./images/most_profitable_movies.png)
 ***
 
-Here is an example of how to embed images from your sub-folder:
+Consider a larger budget for the movie production. This tends to lead towards higher revenue and profits.
+![Budget](./images/budget_profit_revenue.png)
+***
 
-### Visual 1
-![graph1](./images/viz1.png)
+Consider working with Walt Disney and Warner Bros studios who statistically generate the most average and total revenue per movie
+![Top Studios](./images/top_studios_revenue.png)
+***
+
+Consider working with the highest rated Directors.
+
+| Director           | Average Rating|
+| -------------      |:-------------:| 
+| Christopher Nolan  |8.455479       | 
+| Lee Unkrich        |8.349254       | 
+| Joe Russo          |8.198621       |
+| S.S. Rajamouli     |8.193333       | 
+| Asif Kapadia       |8.148718       | 
+| Quentin Tarantino  |8.104110       | 
+| Nuri Bilge Ceylan  |8.066667       | 
+| Rajkumar Hirani    |8.041176       | 
+| Stephen Chbosky    |8.000000       | 
+| Neeraj Pandey      |8.000000       | 
+***
+
+Consider making the movie around 120 to 140 minutes
+
+![graph1](./images/rating_runtime_minutes.png)
+
+***
+
 
 ## Conclusions
 
@@ -64,21 +88,29 @@ There is a positive corrrelation with how much money is budgeted for a film and 
 5. Consider making your movie around 150 minutes.
 The average ratings of movies tend to increase as the length of the movie increases. Our analysis show the most positive incerease in ratings happens to movies up until 150 minutes.
 
+## Next Steps
+
+Further analyses could provide even more insight into how you will create and distribute Microsoft's first movie:
+Better idea of budgets and profits for movies in each genre. We could get an idea of ROI for each movie and by each studio rather than total numbers like we shared in this analysis. Also, if we could find breakdowns of how the budget was spent by each studio to show Microsoft how much they should advertise, how they should advertise,how much to pay their actors/actresses/directors etc. These findings can answer question like: Does it make sense to pay top dollar to top talent?
+Better Idea of what actors/writers/directors will crossover well into different genres. You could take a look at the highest rated actors/writers/directors and see if they have crossed over into making a film out of their typical genre and see if it was succesful (i.e. research one of our top rated actors, Mahershala Ali, and see if he has made an Adventure movie before)
+Better qualitative analysis on why studios, writers, directors, actors/actresses, would want to work with Microsoft. Maybe there are certain things they look for from the company producing the film other than money. This could be done by surveys to individual writers/directors/actors.
+Better idea of studio culture, the benefits of other studios and how they treat there employees and operate the business. We could look at what HR benefits the studio offers, compensation, community events. Do they have a "feelings Friday?"
+
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb)or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **Ryan Reilly & ryan.m.reilly@gmail.com, Brian Matsiko & matsikobrian@yahoo.com**, Kyle Dufrane & kyle.dufrane@gmail.com**
+For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.com, Kyle Dufrane kyle.dufrane@gmail.com**, Brian Matsiko matsikobrian@yahoo.com**
 
 ## Repository Structure
 
 Describe the structure of your repository and its contents, for example:
 
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── Microsoft_Movie_Analysis_README.md                          
+├── final_notebook.ipynb   
+├── DS_Project_Presentation.pdf         
+├── data                            
+└── images
 ```

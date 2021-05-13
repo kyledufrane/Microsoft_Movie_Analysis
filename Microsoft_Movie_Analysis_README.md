@@ -12,10 +12,10 @@ This project analyzes movie data from IMDb, The Numbers, and Box Office Mojo web
 
 Microsoft is looking to develop an internal film department and needs clarity on how to be the most successful in the movie industry. Microsoft has never created a movie before. Choosing the first movie to make in this department is critical to their success in the movie industry. Through our analysis of various sources, we took a look at movies that were released in the last 10 years to get an idea of how recent movies have performed. Given that, we are going to provide recommendations to Microsoft based on the following:
 ***
-* Which studio Microsoft should chose to distribute the movie
-* Which director to chose
-* When to release the movie
 * How much money to budget for the movie
+* A look at the top competitors
+* Which director to choose
+* When to release the movie
 * How long to make the movie
 ***
 
@@ -38,19 +38,14 @@ This project utilizes descriptive analysis, including examination of correlation
 ## Results
 
 ***
-Consider releasing movies at the beginning of May as the three most profitable months are May, June and July
-![Average Profit per Month Since 2010](./images/profit_per_month.png)
-![Most profitable Movies for May, June & July](./images/most_profitable_movies.png)
-***
-
 Consider a larger budget for the movie production. This tends to lead towards higher revenue and profits.
 ![Budget](./images/budget_profit_revenue.png)
-***
 
-Consider working with Walt Disney and Warner Bros studios who statistically generate the most average and total revenue per movie
+***
+Make reference to major competitor work (Walt Disney and Warner Bros studios) who statistically generate the most average and total revenue per movie
 ![Top Studios](./images/top_studios_revenue.png)
-***
 
+***
 Consider working with the highest rated Directors.
 
 | Director           | Average Rating|
@@ -60,14 +55,15 @@ Consider working with the highest rated Directors.
 | Joe Russo          |8.198621       |
 | S.S. Rajamouli     |8.193333       | 
 | Asif Kapadia       |8.148718       | 
-| Quentin Tarantino  |8.104110       | 
-| Nuri Bilge Ceylan  |8.066667       | 
-| Rajkumar Hirani    |8.041176       | 
-| Stephen Chbosky    |8.000000       | 
-| Neeraj Pandey      |8.000000       | 
-***
 
-Consider making the movie around 120 to 140 minutes
+
+***
+Consider releasing movies at the beginning of May as the three most profitable months are May, June and July
+![Average Profit per Month Since 2010](./images/profit_per_month.png)
+![Most profitable Movies for May, June & July](./images/most_profitable_movies.png)
+
+***
+Consider making the movie longer rather than shorter
 
 ![graph1](./images/rating_runtime_minutes.png)
 
@@ -77,16 +73,16 @@ Consider making the movie around 120 to 140 minutes
 ## Conclusions
 
 This analysis leads to the following recommendations for creating a movie.
-1. **Engage with the top 3 studios (Walt Disney, Warner Bros, and Fox) who generate the most revenue per movie.**
-These 3 studios have the highest average grossing revenue for those studios who have made over 100 movies. During May, which is the most profitable month of the year, Walt Disney distributed the top 5 highest profitable movies.
-2. **Engage with the top 3 directors (Anthony Russo, John Russo, Christopher Nolan)**
-These top 3 directors have the highest everage rating for movies with more than 5,000 votes in IMDB. They also all specialize in directing movies in one of the top 3 genres by average rating (Adventure/Drama/Sci-Fi). In addtion, two of our recommended directors (Anthony Russo and John Russo) directed one of the top budget films (Captain America: Civil War).
-3. **Consider releasing during May, June, or July which are months that generate the most profit.**
-The average total revenue is over $1.2 billion for movies relaesed in these months over the last 10 years. It makes sense to release your film during May with Walt Disney. The top 5 most profitable movies in May over the last 10 years were distriubted by Walt Disney.
-4. **Spend more money to make more money (scatter of budget to profit and revenue).**
-There is a positive corrrelation with how much money is budgeted for a film and how much revenue and profit the film will make. Spending more money on the film usually generates more revenue and profit. If you look at the top 5 most profitable movies realesed in May since 2010, they had an average budget of around $223 million. These were all movies in one of our recommended genres (Adventure, Drama, Sci-Fi) and with our top recommended studio, Walt Disney.
-5. **Consider making your movie around 130 minutes.**
-The average ratings of movies tend to increase as the length of the movie increases. Our analysis show the most positive incerease in ratings happens to movies up until 150 minutes.
+1. **Spend more money to make more money.**
+There is a positive corrrelation with how much money is budgeted for a film and how much revenue and profit the film will make. Spending more money on the film usually generates more revenue and profit. If you look at the top 5 most profitable movies released in May since 2010, they had an average budget of around $223 million. These were all movies in one of our highest rated genres, Action,Adventure,Sci-Fi.
+2. **Understand your competitors (Walt Disney and Warner Bros) who generate the most revenue per movie.**
+These studios have the highest average grossing revenue for those studios who have made over 100 movies. During May, which is the most profitable month of the year, Walt Disney distributed the top 5 highest profitable movies while Warner Brothers distributed top movies by profit in June and July, the 2nd and 3rd highest average profit months respectively.
+3. **Engage with the top directors (Christopher Nolan and Joe Russo)**
+These top directors have the highest everage rating for movies with more than 30,000 votes in IMDb. Joe Russo and Christopher Nolan directed two of the most profitable films, Captain America: Civil War, and The Dark Knight Rises. They both also direct films in one of the highest rated genres, which is Action,Adventure,Sci-Fi. In addition, they also direct movies for your competitors, Walt Disney and Warner Bros.
+4. **Consider releasing during May which is the month that generates the most profit.**
+It makes the most sense to release your film during May. May, June and July are the most profitable months of the year. The top 5 most profitable movies in May over the last 10 years were distributed by Walt Disney and profited over $500 million combined.
+5. **Consider making your movie longer, rather than shorter.**
+The average ratings of movies tend to increase as the length of the movie increases. Our analysis shows the most positive incerease in ratings for movies in the Action, Advneture, Sci-Fi genre up to 200 minute movies.
 
 ## Next Steps
 
@@ -94,9 +90,6 @@ Further analyses could provide even more insight into how you will create and di
 
 **Better idea of budgets and profits for movies in each genre.**
 We could get an idea of ROI for each movie and by each studio rather than total numbers like we shared in this analysis. Also, if we could find breakdowns of how the budget was spent by each studio to show Microsoft how much they should advertise, how they should advertise,how much to pay their actors/actresses/directors etc. These findings can answer question like: Does it make sense to pay top dollar to top talent?
-
-**Better Idea of what actors/writers/directors will crossover well into different genres.**
-You could take a look at the highest rated actors/writers/directors and see if they have crossed over into making a film out of their typical genre and see if it was succesful (i.e. research one of our top rated actors, Mahershala Ali, and see if he has made an Adventure movie before)
 
 **Better qualitative analysis on why studios, writers, directors, actors/actresses, would want to work with Microsoft.**
 Maybe there are certain things they look for from the company producing the film other than money. This could be done by surveys to individual writers/directors/actors.

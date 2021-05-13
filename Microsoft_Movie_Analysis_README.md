@@ -94,6 +94,7 @@ Further analyses could provide even more insight into how you will create and di
 
 **Better idea of budgets and profits for movies in each genre.**
 We could get an idea of ROI for each movie and by each studio rather than total numbers like we shared in this analysis. Also, if we could find breakdowns of how the budget was spent by each studio to show Microsoft how much they should advertise, how they should advertise,how much to pay their actors/actresses/directors etc. These findings can answer question like: Does it make sense to pay top dollar to top talent?
+
 **Better Idea of what actors/writers/directors will crossover well into different genres.**
 You could take a look at the highest rated actors/writers/directors and see if they have crossed over into making a film out of their typical genre and see if it was succesful (i.e. research one of our top rated actors, Mahershala Ali, and see if he has made an Adventure movie before)
 
@@ -108,7 +109,7 @@ We could look at what HR benefits the studio offers, compensation, community eve
 
 Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb) or our [presentation](./final_presentation.pdf).
 
-For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.com, Kyle Dufrane kyle.dufrane@gmail.com**, Brian Matsiko matsikobrian@yahoo.com**
+For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.com, Kyle Dufrane kyle.dufrane@gmail.com, Brian Matsiko matsikobrian@yahoo.com**
 
 ## Repository Structure
 

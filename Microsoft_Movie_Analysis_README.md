@@ -77,31 +77,39 @@ Consider making the movie around 120 to 140 minutes
 ## Conclusions
 
 This analysis leads to the following recommendations for creating a movie.
-1. Engage with the top 3 studios (Walt Disney, Warner Bros, and Fox) who generate the most revenue per movie.
+1. **Engage with the top 3 studios (Walt Disney, Warner Bros, and Fox) who generate the most revenue per movie.**
 These 3 studios have the highest average grossing revenue for those studios who have made over 100 movies. During May, which is the most profitable month of the year, Walt Disney distributed the top 5 highest profitable movies.
-2. Engage with the top 3 directors (Anthony Russo, John Russo, Christopher Nolan)
+2. **Engage with the top 3 directors (Anthony Russo, John Russo, Christopher Nolan)**
 These top 3 directors have the highest everage rating for movies with more than 5,000 votes in IMDB. They also all specialize in directing movies in one of the top 3 genres by average rating (Adventure/Drama/Sci-Fi). In addtion, two of our recommended directors (Anthony Russo and John Russo) directed one of the top budget films (Captain America: Civil War).
-3. Consider releasing during May, June, or July which are months that generate the most profit.
+3. **Consider releasing during May, June, or July which are months that generate the most profit.**
 The average total revenue is over $1.2 billion for movies relaesed in these months over the last 10 years. It makes sense to release your film during May with Walt Disney. The top 5 most profitable movies in May over the last 10 years were distriubted by Walt Disney.
-4. Spend more money to make more money (scatter of budget to profit and revenue).
+4. **Spend more money to make more money (scatter of budget to profit and revenue).**
 There is a positive corrrelation with how much money is budgeted for a film and how much revenue and profit the film will make. Spending more money on the film usually generates more revenue and profit. If you look at the top 5 most profitable movies realesed in May since 2010, they had an average budget of around $223 million. These were all movies in one of our recommended genres (Adventure, Drama, Sci-Fi) and with our top recommended studio, Walt Disney.
-5. Consider making your movie around 150 minutes.
+5. **Consider making your movie around 130 minutes.**
 The average ratings of movies tend to increase as the length of the movie increases. Our analysis show the most positive incerease in ratings happens to movies up until 150 minutes.
 
 ## Next Steps
 
 Further analyses could provide even more insight into how you will create and distribute Microsoft's first movie:
-Better idea of budgets and profits for movies in each genre. We could get an idea of ROI for each movie and by each studio rather than total numbers like we shared in this analysis. Also, if we could find breakdowns of how the budget was spent by each studio to show Microsoft how much they should advertise, how they should advertise,how much to pay their actors/actresses/directors etc. These findings can answer question like: Does it make sense to pay top dollar to top talent?
-Better Idea of what actors/writers/directors will crossover well into different genres. You could take a look at the highest rated actors/writers/directors and see if they have crossed over into making a film out of their typical genre and see if it was succesful (i.e. research one of our top rated actors, Mahershala Ali, and see if he has made an Adventure movie before)
-Better qualitative analysis on why studios, writers, directors, actors/actresses, would want to work with Microsoft. Maybe there are certain things they look for from the company producing the film other than money. This could be done by surveys to individual writers/directors/actors.
-Better idea of studio culture, the benefits of other studios and how they treat there employees and operate the business. We could look at what HR benefits the studio offers, compensation, community events. Do they have a "feelings Friday?"
+
+**Better idea of budgets and profits for movies in each genre.**
+We could get an idea of ROI for each movie and by each studio rather than total numbers like we shared in this analysis. Also, if we could find breakdowns of how the budget was spent by each studio to show Microsoft how much they should advertise, how they should advertise,how much to pay their actors/actresses/directors etc. These findings can answer question like: Does it make sense to pay top dollar to top talent?
+
+**Better Idea of what actors/writers/directors will crossover well into different genres.**
+You could take a look at the highest rated actors/writers/directors and see if they have crossed over into making a film out of their typical genre and see if it was succesful (i.e. research one of our top rated actors, Mahershala Ali, and see if he has made an Adventure movie before)
+
+**Better qualitative analysis on why studios, writers, directors, actors/actresses, would want to work with Microsoft.**
+Maybe there are certain things they look for from the company producing the film other than money. This could be done by surveys to individual writers/directors/actors.
+
+**Better idea of studio culture, the benefits of other studios and how they treat there employees and operate the business.**
+We could look at what HR benefits the studio offers, compensation, community events. Do they have a "feelings Friday?"
 
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./final_notebook.ipynb) or our [presentation](./final_presentation.pdf).
 
-For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.com, Kyle Dufrane kyle.dufrane@gmail.com**, Brian Matsiko matsikobrian@yahoo.com**
+For any additional questions, please contact **Ryan Reilly ryan.m.reilly@gmail.com, Kyle Dufrane kyle.dufrane@gmail.com, Brian Matsiko matsikobrian@yahoo.com**
 
 ## Repository Structure
 
@@ -110,7 +118,7 @@ Describe the structure of your repository and its contents, for example:
 ```
 ├── Microsoft_Movie_Analysis_README.md                          
 ├── final_notebook.ipynb   
-├── DS_Project_Presentation.pdf         
+├── final_presentation.pdf         
 ├── data                            
 └── images
 ```
